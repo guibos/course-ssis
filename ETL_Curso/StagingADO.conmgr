@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="__ETL.Staging1"
+  DTS:DTSID="{A5BE0354-809F-4226-A6C6-895B8C020A60}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Staging;Integrated Security=True;Application Name=SSIS-ETL_Curso-{A5BE0354-809F-4226-A6C6-895B8C020A60}.\ETL.Staging1;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

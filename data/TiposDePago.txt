@@ -1,0 +1,11 @@
+Id,TipoDePago,FechaDePago,Precio,Admitido
+1,"contado",20210101,89.7,no
+2,"plazo",2021-01-01,90,sí
+3,"retrasado",01-01-2021,,si
+4,"perdido",,87.9,NO
+5,"olvida",20210101,89,8,Si
+6,y perdona,20210101,89.6,No
+7,libre,20230101,78.6,Si
+8,encerrado,20210101,78.6,Si
+9,absuelto,20210101,89.5,Si
+10,patata,20210101,90.4,No

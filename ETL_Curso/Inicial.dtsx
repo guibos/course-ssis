@@ -12,8 +12,8 @@
   DTS:ObjectName="Inicial"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{FBF7F799-B137-4247-B17E-2B5623DCC0C5}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{8241C00B-7E3E-4601-B813-C3490A7B99E6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -39,7 +39,6 @@
       DTS:refId="Package\Dimensiones"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Tarea Ejecutar paquete"
-      DTS:Disabled="True"
       DTS:DTSID="{F1599037-2BEF-48F0-9FF9-83B6E8E94D5A}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
@@ -57,7 +56,6 @@
       DTS:refId="Package\Limpieza"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Tarea Ejecutar paquete"
-      DTS:Disabled="True"
       DTS:DTSID="{D3C6F388-B97E-4DAD-97D3-18C135485766}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
@@ -75,7 +73,6 @@
       DTS:refId="Package\SalvaGuarda Final"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Tarea Ejecutar paquete"
-      DTS:Disabled="True"
       DTS:DTSID="{954E5C3B-B827-424C-8E88-263B193ECA48}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"
@@ -110,7 +107,6 @@
       DTS:refId="Package\Tabla de Hechos"
       DTS:CreationName="Microsoft.ExecutePackageTask"
       DTS:Description="Tarea Ejecutar paquete"
-      DTS:Disabled="True"
       DTS:DTSID="{C575622C-9C1C-467F-AFB7-016F2CA227A3}"
       DTS:ExecutableType="Microsoft.ExecutePackageTask"
       DTS:LocaleID="-1"

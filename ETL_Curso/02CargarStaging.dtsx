@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="13"
-  DTS:VersionGUID="{8ACBDDBB-5C94-4034-ACCF-F00000C78C47}">
+  DTS:VersionBuild="15"
+  DTS:VersionGUID="{A6B08813-C542-4575-8E14-382918111E2C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -31,7 +31,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="C:\Users\Guillermo\Documents\Documentos\Estudios\Bigdata\data\TiposDePago.txt">
+          DTS:ConnectionString="C:\courses\ssis-course\data\TiposDePago.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -40,7 +40,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="LineaTotal"
-              DTS:DTSID="{1B771DE9-6486-4CF7-B6FB-DF322F05AC83}"
+              DTS:DTSID="{074A2733-24EC-4B1B-A812-17EF70131196}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -60,7 +60,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Guillermo\Documents\Documentos\Estudios\Bigdata\data\csvConEncabezado.txt">
+          DTS:ConnectionString="C:\courses\ssis-course\data\csvConEncabezado.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -68,7 +68,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Id"
-              DTS:DTSID="{2BBC31C1-1BB2-468A-82CB-EC32AE1E2BCA}"
+              DTS:DTSID="{360F8137-532B-4F7A-B791-C17529C1517E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Name"
-              DTS:DTSID="{A499E3EB-7E51-458A-83F4-23FAAC75F8E6}"
+              DTS:DTSID="{50929873-5F0F-43A1-9443-2D68775EC7CA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -85,7 +85,7 @@
               DTS:DataType="16"
               DTS:TextQualified="True"
               DTS:ObjectName="Age"
-              DTS:DTSID="{927CAC17-BA0D-4DBC-83D6-888235517A32}"
+              DTS:DTSID="{7BD113AF-729D-46D1-94F5-3C6CF9D0141D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +94,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Turno"
-              DTS:DTSID="{7295BCC0-06DB-42D5-AB49-D9AFEE79D569}"
+              DTS:DTSID="{EE717642-A8E6-4D96-823D-22293F5259EE}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2483,7 +2483,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-25.3064691840277,29.329268292683,23.0573828125,9.421875"
+              BoundingBox="-25.3064691840278,29.329268292683,23.0573828125,9.421875"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
